@@ -11,7 +11,7 @@ Sua aplicação web DEVE:
 3. Exibir todos os registros importados, bem como a receita bruta total dos registros contidos no arquivo enviado após o upload + parser.
 4. Ter uma boa aparência e ser fácil de usar
 
-Você pode usar qualquer linguagem de programação para o desafio. Abaixo a lista de linguagens que nós aqui do HU temos mais afinidade:
+Você pode usar qualquer linguagem de programação para o desafio. Abaixo a lista de linguagens que nós aqui da CA temos mais afinidade:
 - JavaScript (NodeJS)
 - Python
 - Go
