@@ -1,18 +1,34 @@
 # <img src="https://avatars1.githubusercontent.com/u/42723118?s=200&v=4" alt="CA" width="24" /> Desafio Bravo
 
-Você recebeu um arquivo de texto com os dados de vendas da empresa. Precisamos criar uma maneira para que estes dados sejam importados para um banco de dados.
+## Desafio 1
 
-Sua tarefa é criar uma interface web que aceite upload de arquivos, normalize os dados e armazene-os no banco de dados.
+Dado um numero inteiro N positivo e uma sequencia com N numeros inteiros, determinar o maior e o menor número da sequencia.
+Por exemplo, se o usuário escolher N = 6 e depois informar a sequencia abaixo:
 
-Sua aplicação web DEVE:
+>   -2  7  0  -5  8  4
 
-1. Aceitar (via um formulário) o upload de arquivos text, com dados separados por TAB testar o aplicativo usando o arquivo fornecido. A primeira linha do arquivo tem o nome das colunas. Você pode assumir que as colunas estarão sempre nesta ordem, e que sempre haverá uma linha de cabeçalho. Um arquivo de exemplo chamado 'dados.txt' está incluído neste repositório.
-2. Interpretar ("parsear") o arquivo recebido, normalizar os dados, e salvar corretamente a informação em um banco de dados relacional.
-3. Exibir todos os registros importados, bem como a receita bruta total dos registros contidos no arquivo enviado após o upload + parser.
-4. Ter uma boa aparência e ser fácil de usar
+o seu programa deve retornar:
+
+> Maior número = 8
+> Menor número = -5
+
+## Desafio 2
+
+Calculadora simples Web
+
+- A interface deve permitir ao usuário informar 2 números e selecionar o tipo de operação matemática desejada
+- Após clicar no botão "Calcular" o seu programa deve retornar o resultado da operação
+- É necessário se preocupar com a camada de apresentação e formatação (CSS)
+
+As seguintes estruturas devem ser utilizadas:
+
+- Formulários
+- Inputs to tipo text para os números
+- Inputs do tipo radio ou select para as operações matemáticas de soma, subtração, multiplicação e divisão
+- Requisição POST
 
 Você pode usar qualquer linguagem de programação para o desafio. Abaixo a lista de linguagens que nós aqui da CA temos mais afinidade:
-- JavaScript (NodeJS)
+- JavaScript
 - Python
 - Go
 - Ruby
@@ -40,7 +56,7 @@ Você pode usar qualquer _framework_. Se a sua escolha for por um _framework_ qu
 - **Segurança**: Existe alguma vulnerabilidade clara?
 - **Cobertura de testes** (Não esperamos cobertura completa)
 - **Histórico de commits** (estrutura e qualidade)
-- **UX**: A interface é de fácil uso e auto-explicativa? A API é intuitiva?
+- **UX**: A interface é de fácil uso e auto-explicativa?
 - **Escolhas técnicas**: A escolha das bibliotecas, banco de dados, arquitetura, etc, é a melhor escolha para a aplicação?
 
 ## Dúvidas
