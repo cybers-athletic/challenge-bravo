@@ -25,7 +25,6 @@ As seguintes estruturas devem ser utilizadas:
 - Formulários
 - Inputs to tipo text para os números
 - Inputs do tipo radio ou select para as operações matemáticas de soma, subtração, multiplicação e divisão
-- Requisição POST
 
 Você pode usar qualquer linguagem de programação para o desafio. Abaixo a lista de linguagens que nós aqui da CA temos mais afinidade:
 - JavaScript
